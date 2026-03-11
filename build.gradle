@@ -48,7 +48,12 @@ dependencies {
     modImplementation "meteordevelopment:meteor-client:1.21.4-SNAPSHOT"
 
     // Java libraries
-    implementation "io.github.sashirestela:simple-openai:3.19.4"
+    include implementation("io.github.sashirestela:simple-openai:3.22.2")
+    include implementation("io.github.sashirestela:slimvalidator:1.4.2")
+    include implementation("io.github.sashirestela:cleverclient:2.2.3")
+    include implementation("com.github.victools:jsonschema-generator:4.38.0")
+    include implementation("com.github.victools:jsonschema-module-jackson:4.38.0")
+    include implementation("com.fasterxml:classmate:1.7.3")
 }
 
 processResources {

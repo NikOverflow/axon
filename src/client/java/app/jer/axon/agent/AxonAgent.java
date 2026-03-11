@@ -388,7 +388,7 @@ public class AxonAgent {
 
         // Build request
         ChatRequest chatRequest = ChatRequest.builder()
-                .model("gemini-2.0-flash") // "gemini-2.5-pro-exp-03-25"
+                .model("gemini-2.5-flash") // "gemini-2.5-pro-exp-03-25"
                 .messages(currentMessages)
                 .tools(functionExecutor.getToolFunctions())
                 .temperature(0.0)

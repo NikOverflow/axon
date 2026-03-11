@@ -20,13 +20,13 @@ Axon integrates:
 Requirements:
 
 - Minecraft 1.21.4
-- [Fabric Loader](https://fabricmc.net/use/installer/)
+- [Fabric Loader](https://fabricmc.net/use/installer/) 0.16.13
 
 Put these mods in your `.minecraft/mods/` folder:
 
-- [Axon](https://github.com/jeremy46231/axon/releases/download/nightly/axon-1.0.0.jar)
+- [Axon](https://github.com/jeremy46231/axon/releases/latest)
 - [Baritone](https://github.com/jeremy46231/axon/raw/refs/heads/main/libs/baritone-api-fabric-1.11.1-2-ga0f100f4.jar)
-- [Meteor Client](https://meteorclient.com/api/download?version=1.21.5)
+- [Meteor Client](https://meteorclient.com/api/download?version=1.21.4)
 
 Get your free Gemini API key (no payment method needed, just a Google account):
 
